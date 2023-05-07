@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+
+
+/* Navbar styles */
+header {
+    background-color: #0065c3; /* Change as needed */
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0065c3; /* Change as needed */
+    padding: 20px;
+  }
+  
+  .logo img {
+    height: 50px; /* Adjust as needed */
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-right: 20px; /* Adjust as needed */
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-links a {
+    color: #fff; /* Change as needed */
+    text-decoration: none;
+  }
+  
+  .buy-button a {
+    background-color:#fff ; /* Change as needed */
+    color: #0065c3; /* Change as needed */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .buy-button a:hover {
+    background-color: #fff; /* Change as needed */
+    color: #0065c3;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .buy-button {
+      margin-left: auto;
+    }
+  }
+
+  .background-image {
+    background-image: url('new improved taste.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .video-container {
+    position: absolute;
+    right: 20px;
+    bottom: 20px; /* adjust this value to move the videos up or down */
+    display: flex;
+    gap: 20px; /* add this line to add space between videos */
+  }
+  
+  .video-container iframe {
+    display: block;
+    width: 100px;
+    height: 50px;
+    border: none;
+    margin-right: 20px; /* adjust this value to add more space between videos */
+  }
+  
+  
+  
+  
+  
+  .background_creamy {
+    background-image: url('https://pbs.twimg.com/media/FNVonp5WUAEsUeL.jpg:large');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+ 
+
+   .hehe {
+    background-color: #0065c3;
+    padding: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+  }
+  
+  .left-image-container,
+  .right-image-container {
+    padding: 5px;
+  }
+  
+  .right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+  }
+  
+  .big-image-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+   .fatima {
+    background-size: cover;
+    background-position: center;
+    height: 1500px;
+  display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  } 
+
+.vid{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.fifth img{
+  background-size: cover;
+  position: relative;
+  background-position: center;
+    height: 1000px;
+    width: 100%;
+  display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  margin-bottom: 850px;
+  
+  
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+ 
+   .sixth {
+    position: relative;
+    bottom: 143%;;
+    width: 100%;
+   }
+   .stay{
+    margin: 0;
+    padding: 0;
+border: none;
+    background-color: white;
+    width: 98.5%;
+   }
+
+.stay .cont{
+    color: #0065c3;
+    text-align: center;
+    /* font-weight: bold;
+    font-size: larger; */
+    width: 624px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cervo Neue Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font: 53px ;
+    margin: 0;
+}
+.slides{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 260px;
+    gap: 2px;
+    border:1px solid white;
+}
+.slides .divs img{
+width: 210px;
+height: 220px;
+}
+.slides .divs img:hover{
+    /* transform: rotate(35deg); */
+    /* transition: transform .2s;  */
+    /* Transition: angle(30deg); */
+    transform: scale(0.9); 
+  
+    opacity: 0.700;
+
+}
+/* ///footer */
+.footer{
+    height: 300px;
+    background-color: #0065c3;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.footer .middle{
+    margin-left: 80px;
+    width: 50%;
+    /* background-color: brown; */
+    display: flex;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    justify-content: space-between;
+}
+.footer .middle li{
+    list-style-type: none;
+}
+.footer .middle a{
+    text-decoration: none;
+    color: white;
+}
+.footer .middle a:hover{
+    color: #0065c3;
+}
+.pepsi-logo{
+    width:115px;
+    height: 115px;
+    border-radius: 50%;
+    margin-left: 10px;
+    border: 3px solid white;
+    background-color: white;
+    margin-top: -30px;
+}
+.pepsi-logo img:hover{
+    transform: rotate(90deg);
+
+}
+ 
+.footer .right .btn{
+    width: 70%;
+    /* background-color: black; */
+    margin-left: 130px;
+      border: 2px solid white;
+      color: white;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: -30px;
+  }
+  .footer .btn:hover{
+    display: inline-block;
+    font-size: 1em;
+    height: 2.3em;
+    padding: 0.4em 1.85em;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+      background-color: #0065c3;
+      
+  }
+  .social{
+    margin-left: 150px;
+  }
+  .social i{
+    color: white;
+    width: 40px;
+    height: 30px;
+
+  }
+  .social i:hover{
+    color: #0065c3;
+
+  }
+
